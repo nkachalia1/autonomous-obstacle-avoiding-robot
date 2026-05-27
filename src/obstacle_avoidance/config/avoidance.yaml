@@ -1,0 +1,15 @@
+obstacle_avoidance_node:
+  ros__parameters:
+    scan_topic: "/scan"
+    cmd_vel_topic: "/cmd_vel"
+
+    obstacle_distance: 0.55
+    caution_distance: 0.85
+
+    forward_speed: 0.20
+    slow_speed: 0.08
+    turn_speed: 0.65
+
+    front_window_degrees: 60.0
+    scan_timeout_seconds: 1.0
+
